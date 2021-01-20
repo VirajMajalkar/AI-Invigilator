@@ -19,9 +19,11 @@ Model Outline :-
         3. Third module is to display cheating instance. 
            Customized function "pred_inst" is created in django for this purpose.
 
-    2.  Function "pred_inst" first calls "AI_Invigilator_Record.py" having class "live_capturing" which retruns video and images of candidates captured during exam duration.
+    2.  Function "pred_inst" first calls "AI_Invigilator_Record.py" having class "live_capturing" which retruns 
+        video and images of candidates captured during exam duration.
 
-    3.  Function "pred_inst" then calls "final_model1.h5" which detects cheating instances and display in the web page named "result_page.html". 
+    3.  Function "pred_inst" then calls "final_model1.h5" which detects cheating instances.
+        Web page named "result_page.html" is created to display cheating instances. 
         Web page currently shows only 10 images at one time which is restricted using javascript.
     
     

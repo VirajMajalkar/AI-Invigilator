@@ -41,4 +41,6 @@ Javascript
 
 Attachments :-
 
-Zip file 'vircapstone.zip' contains entire folder having all the necessary files except "final_model1.h5" as the file size was beyond 25 MB. 
+Zip file 'vircapstone.zip' contains entire folder having all the necessary files except "final_model1.h5" as the file size was beyond 25 MB. 'AI_Invigilator_Train.py" file can be used to generated "final_model1.h5".
+
+Other python files have been attached for reference purpose.

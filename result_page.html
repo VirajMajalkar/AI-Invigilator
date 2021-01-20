@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Cheating Instances</h2>
+
+<div id="demo"></div>
+
+<script>
+
+var x ="", m,y ="", n = "", p = "",i;
+var z = decodeURI("{{data}}");
+console.log("The value of z is " + z);
+
+var r = z.replace(/&#x27;/g,"'");
+console.log("The value of r is " + r);
+
+var s = r.replace("[","");
+console.log("The value of s is " + s);
+
+var t = s.replace("]","");
+console.log("The value of t is " + t);
+
+var q = t.split(",");
+console.log("The value of q is " + q);
+
+for (m=0; len = q.length, m < 10;  m++)
+{
+y = q[m];
+console.log("The value of y is " + y);
+x = x + "<img src= " + y + "alt='Image not found' width='250' height='250'>";
+console.log("The value of x is " + x);
+}
+document.getElementById("demo").innerHTML = x;
+
+</script>
+
+</body>
+</html>

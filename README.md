@@ -4,7 +4,7 @@ The goal of our project is to create a series of models which take in processed 
 
 Project is based on Transfer Learning method wherein pretrained VGG16 model is used as a base model for training purpose. 3 different objects Mobile, Printed Text and Helping Person have been used to classify cheating instance. Django web-framework is used to deploy the project.
 
-Model Outline
+Model Outline :-
 
 1. Entire model is divided into three different modules. 
     
@@ -21,7 +21,20 @@ Model Outline
     images at one time which is restricted using javascript.
     
     
- Work In Progress
+Work In Progress :-
  
- 
+Currently working on different models creation to compare models and improve accuracy.
 
+
+Future Path :-
+
+Emailing module needs to be created where cheating instances of candidates can be directly reported to exam supervisor for verification and further action.
+
+Website from login page till exam paper to be created where multiple user can attempt exam at same time.
+
+
+Technologies and Methods Used :-
+
+Python - OpenCV, Keras
+Django Webframework
+Javascript

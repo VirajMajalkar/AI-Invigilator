@@ -10,7 +10,7 @@ Model Outline :-
     1. Entire model is divided into three different modules. 
     
         1. First module is to capture videos of candidates at regular intervals during exam time. 
-           Python class "live_caputring" is created which has 2 fucntions namely "live_video_capturing" and "convert_vid_to_images". 
+           Python class "live_caputring" is created with 2 fucntions namely "live_video_capturing" and "convert_vid_to_images". 
            Option to maintain 'Exam Start Time, 'Exam End Time', 'sleep time' and 'video capturing duration' is also provided.
        
         2. Second modules is to classify the cheating instances. 
@@ -35,8 +35,8 @@ Work In Progress :-
 
 Future Path :-
 
-    1. Emailing module needs to be created where cheating instances of candidates can be directly reported to exam supervisor 
-       for verification and further action.
+    1. Emailing module needs to be created where cheating instances of candidates can be directly reported 
+       to exam supervisor for verification and further action.
 
     2. Website from login page till exam paper to be created where multiple user can attempt exam at same time.
 
@@ -50,7 +50,7 @@ Technologies and Methods Used :-
 
 Attachments :-
 
-     1.  Zip file 'vircapstone.zip' contains entire folder having all the necessary files except "final_model1.h5"
+     1.  Zip file 'vircapstone.zip' contains entire folder having all the necessary files except 'final_model1.h5'.
          As the file size was beyond 25 MB same could not be uploaded. 
         'AI_Invigilator_Train.py" file can be used to generated "final_model1.h5".
 

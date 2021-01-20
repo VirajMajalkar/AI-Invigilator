@@ -50,7 +50,7 @@ Technologies and Methods Used :-
 
 Attachments :-
 
-     1.  Zip file 'vircapstone.zip' contains entire folder having all the necessary files except 'final_model1.h5'.
+     1.  File 'vircapstone.zip' contains entire folder having all the necessary files except 'final_model1.h5'.
          As the file size was beyond 25 MB same could not be uploaded. 
         'AI_Invigilator_Train.py" file can be used to generated "final_model1.h5".
 

@@ -1,6 +1,6 @@
 # AI-Invigilator
 
-Project aim is to create a series of models which take in processed videos and examine the frames in order to detect and identify potential cheating behavior. The result should show which frames showed suspicious activity so that the corresponding time stamp can be found.
+Project aim is to create a series of models which takes in processed videos and examine the frames in order to detect and identify potential cheating behavior. The result whould show candidiate images with suspicious activity.
 
 Project is based on Transfer Learning method wherein pretrained VGG16 model is used as a base model for training purpose. 3 different objects Mobile, Printed Text and Helping Person have been used to classify cheating instance. Django web-framework is used to deploy the project.
 
@@ -8,12 +8,12 @@ Model Outline :-
 
 1. Entire model is divided into three different modules. 
     
-    1. One module is to capture videos of candidates at regular intervals during exam time. Python class "live_caputring" is created which has 2 fucntions namely
-       "live_video_capturing" and "convert_vid_to_images". Option to maintain Exam Start and End Time, sleep time and video capturing duration is also provided.
-       
-    2. Second modules is to determine the cheating. Based on pre-trained VGG16, final model is created and saved as "final_model1.h5"
+    1. First module is to capture videos of candidates at regular intervals during exam time. Python class "live_caputring" is created which has 2 fucntions namely
+       "live_video_capturing" and "convert_vid_to_images". Option to maintain 'Exam Start Time, 'Exam End Time', 'sleep time' and 'video capturing duration' is also provided.
+       '
+    2. Second modules is to classify the cheating instances. Based on pre-trained VGG16, final model is trained and saved as "final_model1.h5"
     
-    3. Third module is to display cheating instance. Customer function "pred_inst" is created in django for this purpose
+    3. Third module is to display cheating instance. Customized function "pred_inst" is created in django for this purpose.
 
 2.  Function "pred_inst" first calls "AI_Invigilator_Record.py" having class "live_capturing" which retruns video and images of candidates captured during exam duration.
 
@@ -38,3 +38,7 @@ Technologies and Methods Used :-
 Python - OpenCV, Keras
 Django Webframework
 Javascript
+
+Attachments :-
+
+Zip file 'vircapstone.zip' contains entire folder having all the necessary files except "final_model1.h5" as the file size was beyond 25 MB. 

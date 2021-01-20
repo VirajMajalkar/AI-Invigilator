@@ -35,7 +35,8 @@ Work In Progress :-
 
 Future Path :-
 
-    1. Emailing module needs to be created where cheating instances of candidates can be directly reported to exam supervisor for verification and further action.
+    1. Emailing module needs to be created where cheating instances of candidates can be directly reported to exam supervisor 
+       for verification and further action.
 
     2. Website from login page till exam paper to be created where multiple user can attempt exam at same time.
 
@@ -49,7 +50,8 @@ Technologies and Methods Used :-
 
 Attachments :-
 
-     1.  Zip file 'vircapstone.zip' contains entire folder having all the necessary files except "final_model1.h5" as the file size was beyond 25 MB. 
-         'AI_Invigilator_Train.py" file can be used to generated "final_model1.h5".
+     1.  Zip file 'vircapstone.zip' contains entire folder having all the necessary files except "final_model1.h5"
+         As the file size was beyond 25 MB same could not be uploaded. 
+        'AI_Invigilator_Train.py" file can be used to generated "final_model1.h5".
 
      2.  Other python files have been attached for reference purpose.

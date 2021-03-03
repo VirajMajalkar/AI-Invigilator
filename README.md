@@ -1,6 +1,6 @@
 # AI-Invigilator
 
-Project aim is to create a series of models which takes in processed videos and examine the frames in order to detect and identify potential cheating behavior. The result whould show candidiate images with suspicious activity.
+Project aim is to create a series of models which takes in processed videos and examine the frames in order to detect and identify potential cheating behavior. The result should show candidate images with suspicious activity.
 
 Project is based on Transfer Learning method wherein pretrained VGG16 model is used as a base model for training purpose. 3 different objects Mobile, Printed Text and Helping Person have been used to classify cheating instance. Django web-framework is used to deploy the project.
 
